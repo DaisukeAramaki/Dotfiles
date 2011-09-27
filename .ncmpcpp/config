@@ -1,0 +1,39 @@
+# MPD ---------------------------------------------
+
+mpd_host = "localhost"
+mpd_port = "6600"
+mpd_music_dir = "/usr/home/spock/Music"
+#mpd_connection_timeout = "5"
+#mpd_crossfade_time = "5"
+
+# Delays ------------------------------------------
+
+playlist_disable_highlight_delay = "2"
+#message_delay_time = "4"
+
+# Format ------------------------------------------
+
+song_columns_list_format = "(7)[blue]{lr} (25)[magenta]{ar} (36)[red]{t} (25)[cyan]{bEr} (7)[green]{yE}"
+selected_item_prefix = "$8"
+selected_item_suffix = "$9"
+
+# Various -----------------------------------------
+
+fancy_scrolling = "yes"
+playlist_display_mode = "columns"
+browser_display_mode = "columns"
+search_engine_display_mode = "columns"
+active_column_color = "white"
+progressbar_color = "magenta"
+incremental_seeking = "yes"
+autocenter_mode = "yes"
+header_visibility = "no"
+statusbar_visibility = "no"
+progressbar_visibility = "no"
+follow_now_playing_lyrics = "yes"
+display_screens_numbers_on_start = "yes"
+ignore_leading_the = "yes"
+lyrics_database = "2"
+colors_enabled = "yes"
+clock_display_seconds = "yes"
+ncmpc_like_songs_adding = "yes"

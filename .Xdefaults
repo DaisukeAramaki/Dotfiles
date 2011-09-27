@@ -1,0 +1,375 @@
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: full
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+ 
+c64*font: xft:Adore64:autohint=false:antialias=false:size=7
+c64*background: #3a319c
+c64*foreground: #7b71d6
+ 
+xterm*title: xterm
+xterm*faceName: terminus:pixelsize=10
+xterm*geometry: 90x25
+xterm*boldMode: false
+xterm*cutNewline: false
+xterm*on4Clicks: group
+xterm*on5Clicks: page
+xterm*internalBorder: 2
+xterm*background: #222222
+xterm*foreground: #ddccbb
+xterm*customization: color
+xterm*metaSendsEscape: true
+xterm*colorBD: #afd700
+xterm*colorBDMode: false
+xterm*cursorBlink: false
+xterm*cursorColor: #ff9900
+xterm*dynamiccolors: true
+xterm*utf8: 1
+xterm*loginShell: true
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48,35:48,58:48,63:48,61:48,44:48,38:48,59:48
+xterm*jumpScroll: true
+xterm*multiScroll: true
+xterm*saveLines: 512
+xterm*scrollBar: false
+xterm*xftAntialias: false
+
+!Xtrail-Colors
+!black
+XTerm*color0:  #222222
+XTerm*color8:  #554444
+
+!red
+!!XTerm*color1:  #884422
+!!XTerm*color9:  #cc5533
+
+XTerm*color1:  #cd5c5c
+XTerm*color9:  #cc5533
+
+!green
+XTerm*color2:  #778800
+XTerm*color10: #88aa22
+
+!yellow
+XTerm*color3: #e8ae5b
+XTerm*color11: #ea6868
+
+!blue
+XTerm*color4:  #8866cc
+XTerm*color12: #9977dd
+
+!magneta
+XTerm*color5:  #885500
+XTerm*color13: #996600
+
+!cyan
+XTerm*color6:  #5555aa
+XTerm*color14: #7777aa
+
+!white
+XTerm*color7:  #665c64
+XTerm*color15: #c3c2c5
+ 
+
+
+URxvt*font: -*-terminus-medium-r-*-*-*-*-*-*-*-*-*-*
+URxvt*boldFont: -*-terminus-medium-r-*-*-*-*-*-*-*-*-*-*
+urxvt.termName: xterm-256color
+urxvt.scrollBar: false
+urxvt.imLocale: ja_JP.UTF-8
+urxvt.loginShell: true
+urxvt.saveLines: 512
+urxvt.geometry: 90x25
+urxvt.boldMode: false
+urxvt.inheritPixmap: false
+urxvt.xftAntialias: false
+urxvt.jumpScroll: true
+urxvt.tintColor: white
+URxvt*internalBorder: 3
+URxvt*internalBordercolor: #121212
+urxvt.cursorBlink: false
+urxvt.cursorColor: #ff8939
+urxvt.cursorColor2: #121212
+urxvt.colorBD: #857672
+urxvt.colorIT: #bbbbbb
+urxvt.colorUL: #999999
+urxvt.underlineColor: #999999
+urxvt.borderless: true
+
+!Technobass - Foreground/Background
+URxvt*foreground: #665c64
+URxvt*background: #121212
+
+!Technicolor I & II - Foreground/Background
+!URxvt*foreground: #b4b4b4
+!URxvt*background: #121212 (or) #222222
+
+!Technicolor II
+! -- black
+!URxvt*color0: #000000
+! -- red
+!URxvt*color1: #A01515
+! -- green
+!URxvt*color2: #86BE51
+! -- yellow
+!URxvt*color3: #968a38
+! -- blue
+!URxvt*color4: #3b7b9c
+! -- purple
+!URxvt*color5: #A6397A
+! -- cyan
+!URxvt*color6: #3b9c5b
+! -- white
+!URxvt*color7: #E9E9E9
+! -- bright-black
+!URxvt*color8: #555753
+! -- bright-red
+!URxvt*color9: #C4362D
+! -- bright-green
+!URxvt*color10: #a6df36
+! -- bright-yellow
+!URxvt*color11: #e8621d
+! -- bright-blue
+!URxvt*color12:  #6495ed
+! -- bright-purple
+!URxvt*color13: #8963B9
+! -- bright-cyan
+!URxvt*color14: #34E2E2
+! -- bright-white
+!URxvt*color15: #c3c2c5
+
+!Technobass
+! -- black
+URxvt*color0: #000000
+! -- red
+URxvt*color1: #ff8888
+! -- green
+URxvt*color2:  #80852d
+! -- yellow
+URxvt*color3: #ffaa55
+! -- blue
+URxvt*color4: #82b8f2
+! -- purple
+URxvt*color5: #ad7fa8
+! -- cyan
+URxvt*color6: #6b9b8b
+! -- white
+URxvt*color7: #babdb6
+! -- bright-black
+URxvt*color8: #555753
+! -- bright-red
+URxvt*color9: #e5505f
+! -- bright-green
+URxvt*color10: #b7e234
+! -- bright-yellow
+URxvt*color11: #e8621d
+! -- bright-blue
+URxvt*color12:  #0088cc
+! -- bright-purple
+URxvt*color13: #cb99e1
+! -- bright-cyan
+URxvt*color14: #34E2E2
+! -- bright-white
+URxvt*color15: #e9e9e9
+
+!Technicolor I
+! black
+!URxvt*color0:  #000000
+!URxvt*color8:  #555753
+
+! red
+!URxvt*color1:  #9e1828
+!URxvt*color9:  #cf6171
+
+! green
+!URxvt*color2:  #80852d
+!URxvt*color10: #7cbc8c
+
+! yellow
+!URxvt*color3:  #968a38
+!URxvt*color11: #fff796
+
+! blue
+!URxvt*color4:  #414171
+!URxvt*color12: #4186be
+
+! magenta
+!URxvt*color5:  #963c59
+!URxvt*color13: #cf9ebe
+
+! cyan
+!URxvt*color6:  #418179
+!URxvt*color14: #71bebe
+
+! white
+!URxvt*color7:  #aaaaaa
+!URxvt*color15: #c3c2c5
+
+rxvt.termName: rxvt
+rxvt.scrollBar: false
+rxvt.loginShell: true
+rxvt.saveLines: 512
+rxvt.boldMode: false
+rxvt.xftAntialias: false
+rxvt.jumpScroll: true
+rxvt*internalBorder: 3
+rxvt*internalBordercolor: #222222
+rxvt.cursorBlink: false
+rxvt.cursorColor: #94bff3
+rxvt.cursorColor2: #000000
+rxvt.background: #222222
+rxvt.foreground: #b4b4b4
+rxvt.colorBD: #554444
+rxvt.colorIT: #bbbbbb
+rxvt.colorUL: #999999
+rxvt.underlineColor: #999999
+rxvt.borderless: true
+rxvt*font: -*-terminus-medium-r-*-*-*-*-*-*-*-*-*-*
+rxvt*boldFont: -*-terminus-medium-r-*-*-*-*-*-*-*-*-*-*
+
+!Technicolor-Variant
+rxvt*color0:         #222222
+rxvt*color1:         #ba8b8b
+rxvt*color2:         #86af80
+rxvt*color3:         #c6d01e
+rxvt*color4:         #3c8ec4
+rxvt*color5:         #9a70b2
+rxvt*color6:         #9fc1cc
+rxvt*color7:         #e9e9e9
+rxvt*color8:         #71a3b7
+rxvt*color9:         #e5505f
+rxvt*color10:        #8cba87
+rxvt.color11:        #e0d95c
+rxvt*color12:        #5899c4
+rxvt.color13:        #ad73ba
+rxvt*color14:	     #338eaa
+rxvt*color15:	     #c3c2c5
+
+!xclock*hourColor: rgb:0/0/0
+!xclock*minuteColor: rgb:8/8/8
+!xclock*secondColor: rgb:b/b/b
+!xclock*majorColor: rgb:0/0/0
+!xclock*minorColor: rgb:6/6/6
+ 
+xcalc*ti.button1.vertDistance: 4
+xcalc*ti.button2.vertDistance: 4
+xcalc*ti.button3.vertDistance: 4
+xcalc*ti.button4.vertDistance: 4
+xcalc*ti.button5.vertDistance: 4
+xcalc*ti.background: gray90
+xcalc*ti.bevel.borderColor: gray65
+xcalc*ti.bevel.borderWidth: 1
+xcalc*ti.bevel.vertDistance: 4
+xcalc*ti.bevel.defaultDistance: 0
+xcalc*ti.bevel.background: rgb:b/c/b
+xcalc*ti.bevel.screen*background: rgb:b/c/b
+xcalc*ti.bevel.screen.borderColor: rgb:b/c/b
+xcalc*ti.bevel.screen.vertDistance: 10
+xcalc*ti.bevel.screen.horizDistance: 10
+xcalc*ti.bevel.screen*left: chainLeft
+xcalc*ti.bevel.screen*right: chainRight
+xcalc*ti.bevel.screen*top: chainTop
+xcalc*ti.bevel.screen*bottom: chainBottom
+xcalc*ti.bevel.screen*LCD.foreground: gray10
+xcalc*ti.bevel.screen*INV.vertDistance: 0
+xcalc*ti.Command.borderColor: gray65
+xcalc*ti.Command.background: gray85
+xcalc*ti.Command.foreground: gray30
+xcalc*ti.button5.background: rgb:e/b/b
+xcalc*ti.button20.background: rgb:e/d/c
+xcalc*ti.button25.background: rgb:e/d/c
+xcalc*ti.button30.background: rgb:e/d/c
+xcalc*ti.button35.background: rgb:e/d/c
+xcalc*ti.button40.background: rgb:b/b/e
+xcalc*ti.button22.background: gray95
+xcalc*ti.button23.background: gray95
+xcalc*ti.button24.background: gray95
+xcalc*ti.button27.background: gray95
+xcalc*ti.button28.background: gray95
+xcalc*ti.button29.background: gray95
+xcalc*ti.button32.background: gray95
+xcalc*ti.button33.background: gray95
+xcalc*ti.button34.background: gray95
+xcalc*ti.button37.background: gray95
+xcalc*ti.button38.background: gray95
+xcalc*ti.button39.background: gray95
+ 
+xmessage*form.okay.shapeStyle: rectangle
+xmessage*form.okay.background: IndianRed
+xmessage*form.okay.foreground: rgb:e/b/b
+xmessage*message*background: ivory3
+xmessage*background: gray85
+xmessage*foreground: gray15
+xmessage*Scrollbar.width: 1
+xmessage*Scrollbar.borderWidth: 0
+xmessage*Text.?.cursorColor: rgb:d/5/5
+xmessage*Text.borderColor: gray65
+xmessage*Text*background: gray95
+xmessage*Command.highlightThickness: 1
+xmessage*Command.internalWidth: 5
+xmessage*Command.internalHeight: 3
+xmessage*Command.borderColor: gray40
+xmessage*Command.shapeStyle: Rectangle
+xmessage*Command.background: gray80
+xmessage*font: -*-motoko-*-*-*-*-*-*-*-*-*-*-*-*
+
+xman*font:  -*-nu-*-*-*-*-*-*-*-*-*-*-*
+xman*jumpScroll: true
+xman*multiScroll: true
+xman*scrollBar: 0
+xman*background: #040404
+!xman*foreground: #d1a375
+xman*foreground: #afd700
+xman*manualFontNormal: -*-proggyoptis-*-*-*-*-*-*-*-*-*-*-*-*
+xman*manualFontBold:   -*-proggyoptis-*-*-*-*-*-*-*-*-*-*-*-*
+xman*manualFontItalic: -*-proggyoptis-*-*-*-*-*-*-*-*-*-*-*-*
+xman*directoryFontNormal: -*-proggyoptis-*-*-*-*-*-*-*-*-*-*-*-*
+xman*manualFontBoldColor: #afd700
+xman*manualFontItalicColor: #6495ed
+
+xfontsel*background: #121212
+xfontsel*foreground: #ce5666
+!xfontsel*font: -*-clean-*-*-*-*-*-*-*-*-*-*-iso8859-2
+xfontsel*font: -*-weep-*-*-*-*-*-*-*-*-*-*-*-*
+
+dclock*background: #1c1c1c
+dclock*foreground: #00587c
+dclock*geometry:   175x70
+dclock*seconds:    no
+dclock*miltime:    yes
+dclock*font:   -*-motoko-*-*-*-*-*-*-*-*-*-*-*-*
+!dclock*font: -misc-fixed-medium-r-semicondensed-*-13-*-*-*-*-*-*-*
+
+!Mwm*background: blue
+!Mwm*foreground: gold
+!Mwm*activeBackground: red
+!Mwm*activeForeground: white
+!Mwm*frameBorderWidth: 4
+!Mwm*resizeBorderWidth: 4
+!Mwm*iconSize: 32x32
+!Mwm*saveUnder: True
+!Mwm*feedback*background: Black
+!Mwm*feedback*foreground: cyan
+!Mwm*feedback*fontList: -b&h-lucida-medium-r-*-*-12-*-*-*-*-*-*-*
+!Mwm*icon*background: Gray80
+!Mwm*icon*foreground: Black
+!Mwm*icon*fontList: -b&h-lucida-medium-r-*-*-12-*-*-*-*-*-*-*
+!Mwm*menu*background: Black
+!Mwm*menu*foreground: cyan
+!Mwm*menu*fontList: -b&h-lucida-medium-r-*-*-12-*-*-*-*-*-*-*
+!Mwm*title*fontList: -b&h-lucida-medium-r-*-*-12-*-*-*-*-*-*-*
+
+! ---| EMACS |--- {{{
+!emacs*font: -jmk-neep alt-medium-r-semicondensed--11-100-75-75-c-50-iso8859-15
+!Emacs*Background: grey15
+!Emacs*Foreground: grey84
+emacs*menubar*foreground:#d0d0d0
+emacs*menubar*Background:#1c1c1c
+!emacs.geometry: 85x45
+
+!.Emacs21.pane.menubar.background: gray75
+!.Emacs21.pane.menubar.foreground: gray20
+!.Emacs21.pane.menubar.height: 30
+!.Emacs21.pane.menubar.font: -jmk-neep alt-medium-r-semicondensed--11-100-75-75-c-50-iso8859-15
+!}}}
+

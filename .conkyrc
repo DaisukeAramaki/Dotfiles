@@ -1,0 +1,37 @@
+# Sticker Conky by Skinwalker aka Prem K. Murugan
+# http://skinwalker.wordpress.com
+# Optimized for Netbook resolution 1024x600
+
+own_window yes
+own_window_colour 121212
+own_window_transparent no
+own_window_type override
+own_window_transparent no
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+use_spacer right
+use_xft yes
+xftfont standard 07_57 caps:size=6
+alignment top_left
+gap_x 830
+gap_y 5
+
+# --- Colours, Sizes, Fonts & Margins --- #
+update_interval 1.0
+minimum_size 110 3
+stippled_borders 3
+border_margin 5
+border_width 6
+default_color 665c64
+
+# --- Text --- #
+draw_outline no
+draw_borders no
+uppercase no
+draw_shades yes
+
+TEXT
+${color e8621d}OpenBSD ${color 665c64}- ${color e5505f}Masturbating Monkeys FTW ${color 66ee88}${hr 2}
+${color 0088cc}${time %A} ${time %e} ${time %B} ${time %G}${alignr} ${time %H:%M:%S}
+${color cb99e1}Machine$color $nodename ${alignr} ${color b7e234}Uptime$color $uptime
+${color e5505f}Kernel$color $kernel ${alignr} ${color 34e2e2}Arch$color $machine

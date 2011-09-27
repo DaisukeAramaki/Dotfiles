@@ -1,0 +1,31 @@
+#Font
+fontname "standard 07_57 caps:pixelsize=8"
+
+#Borderwidth (I need my fat borders!)
+borderwidth 5
+
+#Colors
+color inactiveborder "#0f0f0f"
+color groupborder "#8eae71"
+color activeborder "#121212"
+color ungroupborder "#7e62b3"
+
+#Application
+command shell         urxvtc
+command proc          "urxvtc -e top"
+command play          "urxvtc -e ncmpc"
+command port          firefox
+
+#Autogroup Definitions
+autogroup 3 "vim, URxvtc"
+autogroup 3 "urxvtc, URxvtc"
+
+#inherit current selected group
+sticky yes
+
+#Ignore
+ignore dclock
+ignore conky
+
+#Keybindings
+bind CM-Return  "urxvtc"

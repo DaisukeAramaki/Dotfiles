@@ -1,0 +1,17 @@
+Config { font = "-*-terminus-medium-r-*-*-*-*-*-*-*-*-*-*"
+        , bgColor = "#121212"
+        , fgColor = "#2e3436"
+        , position = Top
+        , lowerOnStart = False
+        , commands = [ Run Weather "EDDS" ["-t","<tempF>F","-L","40","-H","80","--high","red","--low","#3333FF"] 36000
+        , Run Com "echo" ["$USER"] "username" 864000
+        , Run Com "hostname" ["-s"] "hostname" 864000
+        , Run Com "uname -rms" ["-sr"] "os" 864000
+        , Run Date "%a %b %_d" "date" 36000
+        , Run Date "%H:%M:%S" "time" 10
+        , Run StdinReader
+        ]
+     , sepChar = "'"
+     , alignSep = "}{"
+     , template = "'StdinReader' <fc=#2e3436>|</fc> <fc=#e8621d>'username'</fc> <fc=#2e3436>|</fc> <fc=#0088cc>'hostname'</fc> <fc=#2e3436>|</fc> <fc=#cb99e1>'os'</fc> <fc=#2e3436>| </fc> }{<fc=#34e2e2>'date'</fc> <fc=#2e3436>|</fc> <fc=#e5505f>'time'</fc> <fc=#2e3436>|</fc> 'EDDS'"
+    }
