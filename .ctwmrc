@@ -792,15 +792,3 @@ Button3 =	: i|m		: f.raiselower
 "Left"     = c	: all		: f.jumpleft "15"
 "Up"       = c  : all		: f.jumpup "15"
 "Down"     = c  : all		: f.jumpdown "15"
-
-
-
-
-
-
-
-
-
-
-
-

@@ -102,7 +102,7 @@ URxvt*background: #121212
 
 !Technicolor I & II - Foreground/Background
 !URxvt*foreground: #b4b4b4
-!URxvt*background: #121212 (or) #222222
+!URxvt*background: #121212
 
 !Technicolor II
 ! -- black
