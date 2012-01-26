@@ -9,15 +9,19 @@ ___________---______---___________  \_||__________________________________/
                       -)=|__ =<=======--      :. |_\
                       / |||           __________---'
                           ------------
-       Marathonmod X11 Font: A minor mod of one of my favorite fonts from the nucleus family
-                     https://github.com/DaisukeAramaki/Dotfiles
+       beep X11 Font: A mod of the Jim Knoble's famous Neep font
+                https://github.com/DaisukeAramaki/Dotfiles
                 
 INSTALLATION:
-1. Move the font to /usr/local/lib/X11/fonts/ (Note: This is the path for BSD, on Linux it should be different)
+1. Move the font to /usr/local/lib/X11/fonts/
 2. Run mkfontdir, fc-cache -f -v 
 3. Update fontpath in xorg.conf or .xinitrc, depending on whether you use a conf file for X or not.
 
+Comments:
+Beep comes only in pixelsize 11. Hence, it is bigger than dweep.
+
 - [Prem K. Murugan aka Skinwalker aka Daisuke_Aramaki]
+For more on my stuff, please visit:
 
 http://skinwalker.wordpress.com
                          
